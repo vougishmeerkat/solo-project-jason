@@ -7,6 +7,7 @@ const driver: WebDriver = new Builder()
 .build()
 
 const searchBarTest = new GamestopPage
+//Security on the Gamestop website prevents this test from working properly.
 
 test("Testing Add to Cart Feature", async () => {
 await searchBarTest.navigate()
